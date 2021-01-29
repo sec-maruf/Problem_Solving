@@ -1,0 +1,40 @@
+Task 1:
+*****************************************************************************
+Write a function to check if a given matrix is Hankel or not
+Given a matrix m[][] of size n x n. The task is to check whether given matrix is Hankel Matrix or not.
+A hankle matrix or catalecticant matrix), is a square matrix in which each ascending skew-diagonal from
+left to right is constant.
+Write a method checkHankelMatrix of type boolean with two parameters integer n for size and a two
+dimensional array m . Method should return True if it is a Hankel Matrix and vice versa
+Input:
+N= 4
+m[][] = {{1, 2, 3, 5},
+{2, 3, 5, 8},
+{3, 5, 8, 0},
+{5, 8, 0, 9} };
+Output: TRUE
+Explanation: All diagonal {1}, {2, 2}, {3, 3, 3}, {5, 5, 5, 5}, {8, 8, 8}, {9} have constant value.
+So given matrix is Hankel Matrix.
+
+Input:
+N= 3
+m[][] = {{1, 2, 3},
+{2, 3, 5},
+{3, 9, 8}};
+Output: FALSE
+Explanation: All diagonal {1}, {2, 2}, {3, 3, 3}, {5, 9}, {8} donot have constant value.
+So given matrix is Not a Hankel Matrix.
+___________________________________________________________________________________________________
+
+Task 2
+*************************************************************************************************
+Write a method hankelList that receives a matrix m as an argument.
+If the given matrix is a Hankel Matrix, return a linked list of the individual numbers contained in the matrix
+in ascending order. If it is not a Hankel Matrix, return null.
+Example:
+Input:
+m[][] = {{1, 2, 3, 5},
+{2, 3, 5, 8},
+{3, 5, 8, 0},
+{5, 8, 0, 9} };
+Output: [0][1][2][3][5][8][9]
