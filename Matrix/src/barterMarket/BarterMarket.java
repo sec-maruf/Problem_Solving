@@ -20,7 +20,8 @@ public class BarterMarket {
 	public static void main(String arg[]) {
 		int comicBook = 393;
 		int coins = 896;
-		int coinsNeeded = 787;
+//		int coinsNeeded = 787;
+		int coinsNeeded = 786;
 		int coinsOffered = 920;
 		int maxFictionBook = maxFb(comicBook, coins, coinsNeeded, coinsOffered);
 		System.out.println(maxFictionBook);
